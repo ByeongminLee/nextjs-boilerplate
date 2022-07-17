@@ -1,8 +1,7 @@
 import type { NextPage } from 'next';
-import { HomeTemplate } from '@/components';
 
 const Home: NextPage = () => {
-  return <HomeTemplate />;
+  return <div>nextjs boilerplate base</div>;
 };
 
 export default Home;
