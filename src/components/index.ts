@@ -1,10 +1,11 @@
 /** Atoms */
-export { Button, Card, Title } from './Atoms';
-export type { ButtonPropsType, CardPropsType, TitlePropsType } from './Atoms';
+export { SampleAtoms } from './Atoms';
+export type { SampleAtomsPropsType } from './Atoms';
 
 /** Modules */
-export { ContentsCard } from './Modules';
+export { SampleModules } from './Modules';
+export type { SampleModulesPropsType } from './Modules';
 
 /** Templates */
-export { Layout } from './Templates';
-export { HomeTemplate } from './Templates';
+export { SampleTemplates } from './Templates';
+export type { SampleTemplatesPropsType } from './Templates';

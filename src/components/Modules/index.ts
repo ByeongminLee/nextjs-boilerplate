@@ -1,4 +1,2 @@
-export { default as Navbar } from './Navbar';
-export { default as Footer } from './Footer';
-
-export { default as ContentsCard } from './ContentsCard';
+export { default as SampleModules } from './SampleModules';
+export type { SampleModulesPropsType } from './SampleModules';

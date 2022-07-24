@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
-import { HomeTemplate } from '@/components';
+import { SampleTemplates } from '@/components';
 
 const Home: NextPage = () => {
-  return <HomeTemplate />;
+  return <SampleTemplates />;
 };
 
 export default Home;

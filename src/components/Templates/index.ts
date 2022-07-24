@@ -1,2 +1,2 @@
-export { default as HomeTemplate } from './Home';
-export { default as Layout } from './Layout';
+export { default as SampleTemplates } from './SampleTemplates';
+export type { SampleTemplatesPropsType } from './SampleTemplates';
