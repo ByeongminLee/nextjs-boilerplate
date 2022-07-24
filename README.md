@@ -5,6 +5,7 @@
 - Styled-Components
 - Storybook
 - Atomic Design pattern
+- hygen
 
 ## install
 
@@ -41,65 +42,21 @@ Simplified Atomic Design pattern
 - styles
 - Utils
 
+#### Create Components Generator : Hygen
+
+How To Use?
+
+```sh
+hygen component new
 ```
-├── components
-│   ├── Atoms
-│   │   ├── Button
-│   │   │   ├── Button.stories.tsx
-│   │   │   ├── Button.tsx
-│   │   │   ├── Button.types.ts
-│   │   │   └── index.ts
-│   │   ├── Card
-│   │   │   ├── Card.stories.tsx
-│   │   │   ├── Card.tsx
-│   │   │   ├── Card.types.ts
-│   │   │   └── index.ts
-│   │   ├── Title
-│   │   │   ├── Title.stories.tsx
-│   │   │   ├── Title.tsx
-│   │   │   ├── Title.types.ts
-│   │   │   └── index.ts
-│   │   └── index.ts
-│   ├── Modules
-│   │   ├── ContentsCard
-│   │   │   ├── ContentsCard.stories.tsx
-│   │   │   ├── ContentsCard.tsx
-│   │   │   ├── ContentsCard.types.ts
-│   │   │   └── index.ts
-│   │   ├── Footer
-│   │   │   ├── Footer.stories.tsx
-│   │   │   ├── Footer.tsx
-│   │   │   ├── Footer.types.ts
-│   │   │   └── index.ts
-│   │   ├── Navbar
-│   │   │   ├── Navbar.stories.tsx
-│   │   │   ├── Navbar.tsx
-│   │   │   └── index.ts
-│   │   └── index.ts
-│   ├── Templates
-│   │   ├── Home
-│   │   │   ├── Home.tsx
-│   │   │   └── index.ts
-│   │   ├── Layout
-│   │   │   ├── Layout.tsx
-│   │   │   └── index.ts
-│   │   └── index.ts
-│   └── index.ts
-├── hooks
-│   └── useResponsive.tsx
-├── pages
-│   ├── _app.tsx
-│   ├── _document.tsx
-│   ├── api
-│   │   └── hello.ts
-│   └── index.tsx
-├── styles
-│   ├── globals.css
-│   └── reset.css
-├── Utils
-├── getSample.ts
-└── index.ts
-```
+
+1. Which components design level?
+   -> select Atomic, Modules, Templates
+2. What is the component name?
+   -> sample
+
+> Create a component folder named `sample` <br/>
+> The first letter is replaced with an uppercase letter.
 
 ## Author
 

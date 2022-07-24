@@ -24,7 +24,9 @@
     "**/*.ts",
     "**/*.tsx",
     "src/components/Modules/ContentsCard/ContentsCard.stories.ts",
-    "src/components/Modules/ContentsCard/1"
+    "src/components/Modules/ContentsCard/1",
+    ".hygen.ts",
+    "_templates/component/Atoms/index.js"
   ],
   "exclude": ["node_modules"]
 }
